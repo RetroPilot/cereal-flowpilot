@@ -18,7 +18,7 @@ sourceSets {
 }
 
 dependencies {
-    implementation files("$rootProject.projectDir/libs/zmq.jar")
+    implementation 'org.zeromq:jeromq:0.5.3'
     implementation 'org.capnproto:runtime:0.1.13'
     implementation 'org.yaml:snakeyaml:1.18:android'
     implementation 'org.slf4j:slf4j-api:1.7.30'
