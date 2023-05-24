@@ -1375,7 +1375,7 @@ struct Event {
     radarState @15 :RadarState;
     longitudinalPlan @16 :LongitudinalPlan;
     carEvents @17: List(Car.CarEvent);
-    frameData@18: FrameData;
+    frameDataDEPRECATED@18: FrameData;
     sensorEvents @19 :List(SensorEventData);
     gpsLocationExternal @20 :GpsLocationData;
     peripheralState @21 :PeripheralState;
