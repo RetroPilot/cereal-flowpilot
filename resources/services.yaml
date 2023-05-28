@@ -216,3 +216,28 @@ services:
         keepLast: true
         log: true
         expectedFreq: 0
+    
+    clocks:
+        keepLast: true
+        log: true
+        expectedFreq: 1
+        decimation: 1
+
+    gnssMeasurements:
+        keepLast: true
+        log: true
+        expectedFreq: 10
+        decimation: 10
+    
+    gyroscope:
+        keepLast: true
+        log: true
+        expectedFreq: 100
+        decimation: 100
+    
+    accelerometer:
+        keepLast: true
+        log: true
+        expectedFreq: 100
+        decimation: 100
+    
